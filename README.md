@@ -50,13 +50,7 @@ streamlit run app.py
 
 ```
 
-### 🚀 Ejecución del Proyecto Usando Docker
-
-Este proyecto ha sido contenerizado completamente usando Docker
-
----
-
-## 🐳 Paso 1: Clonar el repositorio
+### 🐳 Ejecución del Proyecto Usando Docker
 
 ```bash
 git clone https://github.com/nicjm18/ETL-IoT---Siata.git

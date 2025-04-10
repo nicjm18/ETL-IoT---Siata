@@ -1,6 +1,6 @@
 # 🛰️ ETL IoT - SIATA Air Quality Dashboard
 
-Este proyecto corresponde al desarrollo de un sistema ETL con visualización georreferenciada para datos de calidad del aire, como parte del curso **Internet de las Cosas (IoT)**. Se construyó un dashboard interactivo usando **Python, Streamlit, Docker y datos abiertos del SIATA**, y fue desplegado en una instancia EC2 de AWS.
+Este proyecto corresponde al desarrollo de un sistema ETL con visualización georreferenciada para datos de calidad del aire, como parte del curso **Internet de las Cosas (IoT)**. Se construyó un dashboard usando **Python, Streamlit, Docker y datos abiertos del SIATA**, y fue desplegado en una instancia EC2 de AWS.
 
 ---
 
@@ -12,7 +12,7 @@ El sistema realiza:
 - 🧼 **Transformación**: limpieza de datos, cálculo del índice **AQI**.
 - 📊 **Carga y visualización**:
   - Mapa de estaciones con niveles AQI por zona.
-  - Interpolación de AQI en la zona universitaria.
+  - Interpolación de AQI en zonas de interés.
   - Mapa de calor interpolado sobre Medellín.
   - Recomendaciones según el nivel de riesgo.
 
@@ -48,7 +48,9 @@ source venv/bin/activate  # En Windows: venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run app.py
 
-# 🚀 Ejecución del Proyecto Usando Docker
+```
+
+### 🚀 Ejecución del Proyecto Usando Docker
 
 Este proyecto ha sido contenerizado completamente usando Docker
 
